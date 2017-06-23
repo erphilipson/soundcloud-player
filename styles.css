@@ -1,0 +1,59 @@
+body {
+  background-color: #60d9f1;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.player {
+  text-align: center;
+}
+
+.music-player {
+  width: 90vw;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-item {
+  font-size: 1.2vw;
+  width: 65vw;
+  height: 2vw;
+}
+
+.button {
+  background: white;
+  border: 2px solid orange;
+  width: 10vw;
+  height: 2.45vw;
+}
+
+.button:active {
+  background: red;
+}
+
+.button:focus {
+  outline: none
+}
+
+.button:hover {
+  background: gray;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.each-element {
+  flex-basis: 20%;
+  padding: 2vw;
+  text-align: center;
+
+
+}
